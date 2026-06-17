@@ -20,7 +20,7 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: 'Kutlukent | Samsun Site ve Tesis Yönetimi',
+  title: 'Kutlukent | Tesis Yönetimi',
   description:
     'Samsun merkezli Kutlukent Site ve Tesis Yönetimi. Şeffaf yönetim, aidat takibi, teknik operasyon ve dijital süreç yönetimi çözümleri.',
 };

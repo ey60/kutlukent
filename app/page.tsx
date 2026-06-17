@@ -475,7 +475,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col leading-none" style={{ fontFamily: 'var(--font-montserrat)' }}>
               <span className="text-[#d0a246] text-xs font-semibold tracking-[0.22em] uppercase">Kutlukent</span>
-              <span className="text-[#f5f0e8]/35 text-[9px] tracking-[0.18em] uppercase mt-0.5">Entegre Tesis Yönetimi</span>
+              <span className="text-[#f5f0e8]/35 text-[9px] tracking-[0.18em] uppercase mt-0.5">Tesis Yönetimi</span>
             </div>
           </a>
 
@@ -556,7 +556,7 @@ export default function Home() {
             className="text-4xl sm:text-5xl md:text-6xl lg:text-[64px] font-bold leading-[1.12] mb-7 tracking-tight"
             style={{ fontFamily: 'var(--font-playfair)' }}
           >
-            Entegre Tesis Yönetimi
+            Tesis Yönetimi
             <br />
             <em className="not-italic text-[#d0a246]">ve Seçkin Yaşam Alanı Çözümleri</em>
           </motion.h1>
@@ -975,7 +975,7 @@ export default function Home() {
                 </div>
                 <div style={{ fontFamily: 'var(--font-montserrat)' }}>
                   <p className="text-[#d0a246] text-xs font-semibold tracking-[0.22em] uppercase">Kutlukent</p>
-                  <p className="text-[#f5f0e8]/30 text-[9px] tracking-[0.18em] uppercase">Entegre Tesis Yönetimi</p>
+                  <p className="text-[#f5f0e8]/30 text-[9px] tracking-[0.18em] uppercase">Tesis Yönetimi</p>
                 </div>
               </div>
               <p className="text-[#f5f0e8]/35 text-xs leading-relaxed" style={{ fontFamily: 'var(--font-lora)' }}>
@@ -1020,7 +1020,7 @@ export default function Home() {
 
           <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
             <p className="text-[#f5f0e8]/20 text-[10px] tracking-[0.2em]" style={{ fontFamily: 'var(--font-montserrat)' }}>
-              © 2026 Kutlukent Entegre Tesis Yönetimi. Tüm hakları saklıdır.
+              © 2026 Kutlukent Tesis Yönetimi. Tüm hakları saklıdır.
             </p>
             <p className="text-[#d0a246]/25 text-[10px] tracking-[0.2em] italic" style={{ fontFamily: 'var(--font-lora)' }}>
               Samsun
