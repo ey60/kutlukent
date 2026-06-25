@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   description:
     'Samsun merkezli Kutlukent Site ve Tesis Yönetimi. Şeffaf yönetim, aidat takibi, teknik operasyon ve dijital süreç yönetimi çözümleri.',
   icons: {
-    icon: '/images/favicon.png?v=2',
-    shortcut: '/images/favicon.png?v=2',
-    apple: '/images/favicon.png?v=2',
+    icon: '/images/favicon.png?v=3',
+    shortcut: '/images/favicon.png?v=3',
+    apple: '/images/favicon.png?v=3',
   },
 };
 
