@@ -706,6 +706,86 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* ══════════════════════════════════════
+          SEO HİZMET SAYFALARI
+      ══════════════════════════════════════ */}
+      <section className="py-20 md:py-24 px-6 bg-[#26292c]/90 relative z-10">
+        <div className="max-w-7xl mx-auto">
+          <Reveal className="text-center mb-12">
+            <span
+              className="text-[#d0a246] text-[10px] tracking-[0.38em] uppercase mb-4 block"
+              style={{ fontFamily: 'var(--font-montserrat)' }}
+            >
+              Samsun Geneli Hizmetler
+            </span>
+
+            <h2
+              className="text-3xl md:text-5xl font-bold text-[#f5f0e8] mb-5"
+              style={{ fontFamily: 'var(--font-playfair)' }}
+            >
+              Samsun’da Profesyonel Yönetim Çözümleri
+            </h2>
+
+            <div className="w-10 h-px bg-[#d0a246] mx-auto mb-6" />
+
+            <p
+              className="text-[#f5f0e8]/50 text-base leading-[1.9] max-w-2xl mx-auto"
+              style={{ fontFamily: 'var(--font-lora)' }}
+            >
+              Kutlukent; Samsun genelinde site, apartman ve yapı yönetimi süreçlerinde şeffaf,
+              düzenli ve profesyonel yönetim desteği sunar.
+            </p>
+          </Reveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {[
+              {
+                title: 'Samsun Site Yönetimi',
+                href: '/samsun-site-yonetimi',
+                desc: 'Siteler için şeffaf yönetim, düzenli operasyon ve çözüm ortaklarıyla koordinasyon.',
+              },
+              {
+                title: 'Samsun Apartman Yönetimi',
+                href: '/samsun-apartman-yonetimi',
+                desc: 'Apartmanlarda aidat takibi, kat malikleri iletişimi ve ortak alan düzeni.',
+              },
+              {
+                title: 'Samsun Yapı Yönetimi',
+                href: '/samsun-yapi-yonetimi',
+                desc: 'Site, apartman, rezidans, iş merkezi ve tesisler için profesyonel yapı yönetimi.',
+              },
+            ].map((item) => (
+              <Reveal key={item.title}>
+                <a
+                  href={item.href}
+                  className="group block border border-[#d0a246]/15 hover:border-[#d0a246]/45 bg-[#1e2124]/70 p-7 h-full transition-colors duration-300"
+                >
+                  <h3
+                    className="text-[#d0a246] text-xl font-semibold mb-3"
+                    style={{ fontFamily: 'var(--font-playfair)' }}
+                  >
+                    {item.title}
+                  </h3>
+
+                  <p
+                    className="text-[#f5f0e8]/50 text-sm leading-7 mb-6"
+                    style={{ fontFamily: 'var(--font-lora)' }}
+                  >
+                    {item.desc}
+                  </p>
+
+                  <span
+                    className="text-[#f5f0e8]/45 group-hover:text-[#d0a246] text-[10px] tracking-[0.25em] uppercase transition-colors"
+                    style={{ fontFamily: 'var(--font-montserrat)' }}
+                  >
+                    Detayları İncele →
+                  </span>
+                </a>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* ══════════════════════════════════════
           NEDEN KUTLUKENT
