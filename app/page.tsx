@@ -786,6 +786,98 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+            {/* ══════════════════════════════════════
+          ÇALIŞMA SÜRECİMİZ
+      ══════════════════════════════════════ */}
+      <section className="py-20 md:py-24 px-6 bg-[#1e2124]/90 relative z-10">
+        <div className="max-w-7xl mx-auto">
+          <Reveal className="text-center mb-14">
+            <span
+              className="text-[#d0a246] text-[10px] tracking-[0.38em] uppercase mb-4 block"
+              style={{ fontFamily: 'var(--font-montserrat)' }}
+            >
+              Çalışma Sürecimiz
+            </span>
+
+            <h2
+              className="text-3xl md:text-5xl font-bold text-[#f5f0e8] mb-5"
+              style={{ fontFamily: 'var(--font-playfair)' }}
+            >
+              İhtiyacı Dinler, Yerinde İnceler, Planlı Yönetiriz
+            </h2>
+
+            <div className="w-10 h-px bg-[#d0a246] mx-auto mb-6" />
+
+            <p
+              className="text-[#f5f0e8]/50 text-base leading-[1.9] max-w-2xl mx-auto"
+              style={{ fontFamily: 'var(--font-lora)' }}
+            >
+              Kutlukent, her yapı için önce mevcut durumu ve ihtiyaçları anlamaya odaklanır.
+              Yerinde inceleme, etüt çalışması ve yönetim planı ile süreci şeffaf ve düzenli
+              şekilde kurgular.
+            </p>
+          </Reveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-5">
+            {[
+              {
+                step: '01',
+                title: 'İlk İletişim',
+                text: 'Site, apartman veya tesisinizin mevcut durumu, yönetim ihtiyacı, yapı tipi ve beklentiler ön değerlendirme için dinlenir.',
+              },
+              {
+                step: '02',
+                title: 'Yerinde Ziyaret',
+                text: 'Yapı yerinde ziyaret edilerek ortak alanlar, mevcut hizmet düzeni ve geliştirilmesi gereken başlıklar incelenir.',
+              },
+              {
+                step: '03',
+                title: 'Etüt ve İhtiyaç Analizi',
+                text: 'Temizlik, güvenlik, teknik bakım, peyzaj, aidat süreci ve iletişim yapısı gibi başlıklarda değerlendirme yapılır.',
+              },
+              {
+                step: '04',
+                title: 'Yönetim Planı ve Teklif',
+                text: 'Yapının ihtiyaçlarına göre uygulanabilir, şeffaf ve sürdürülebilir bir yönetim planı hazırlanır.',
+              },
+              {
+                step: '05',
+                title: 'Sürecin Başlatılması',
+                text: 'Mutabakat sağlandıktan sonra yönetim süreci planlı şekilde başlatılır ve düzenli operasyon takibi kurulur.',
+              },
+            ].map((item) => (
+              <Reveal key={item.step}>
+                <div className="group h-full border border-[#d0a246]/15 hover:border-[#d0a246]/45 bg-[#26292c]/70 p-6 transition-colors duration-300">
+                  <p
+                    className="text-[#d0a246]/70 text-[11px] tracking-[0.3em] uppercase mb-5"
+                    style={{ fontFamily: 'var(--font-montserrat)' }}
+                  >
+                    {item.step}
+                  </p>
+
+                  <h3
+                    className="text-[#f5f0e8] text-xl font-semibold mb-4 leading-snug"
+                    style={{ fontFamily: 'var(--font-playfair)' }}
+                  >
+                    {item.title}
+                  </h3>
+
+                  <p
+                    className="text-[#f5f0e8]/50 text-sm leading-7"
+                    style={{ fontFamily: 'var(--font-lora)' }}
+                  >
+                    {item.text}
+                  </p>
+
+                  <div className="h-px mt-6 bg-gradient-to-r from-[#d0a246] to-transparent w-0 group-hover:w-full transition-all duration-500" />
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+      
       {/* ══════════════════════════════════════
           BİLGİ MERKEZİ
       ══════════════════════════════════════ */}
