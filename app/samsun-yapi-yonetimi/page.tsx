@@ -172,9 +172,6 @@ export default function SamsunYapiYonetimiPage() {
                 </div>
               ))}
             </div>
-          </section>
-
-                      </div>
 
             <p
               className="text-[#f5f0e8]/45 text-sm leading-7 mt-6"
@@ -184,7 +181,7 @@ export default function SamsunYapiYonetimiPage() {
               gerekliliklerine göre değerlendirilir.
             </p>
           </section>
-          
+
           <section className="mb-16">
             <h2
               className="text-3xl md:text-4xl font-bold mb-6"
