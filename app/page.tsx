@@ -786,6 +786,75 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* ══════════════════════════════════════
+          BİLGİ MERKEZİ
+      ══════════════════════════════════════ */}
+      <section className="py-20 md:py-24 px-6 bg-[#1e2124]/90 relative z-10">
+        <div className="max-w-5xl mx-auto">
+          <Reveal className="text-center mb-12">
+            <span
+              className="text-[#d0a246] text-[10px] tracking-[0.38em] uppercase mb-4 block"
+              style={{ fontFamily: 'var(--font-montserrat)' }}
+            >
+              Bilgi Merkezi
+            </span>
+
+            <h2
+              className="text-3xl md:text-5xl font-bold text-[#f5f0e8] mb-5"
+              style={{ fontFamily: 'var(--font-playfair)' }}
+            >
+              Yapı Yönetimi Hakkında Bilmeniz Gerekenler
+            </h2>
+
+            <div className="w-10 h-px bg-[#d0a246] mx-auto mb-6" />
+
+            <p
+              className="text-[#f5f0e8]/50 text-base leading-[1.9] max-w-2xl mx-auto"
+              style={{ fontFamily: 'var(--font-lora)' }}
+            >
+              Site, apartman ve yapı yönetimi süreçlerinde doğru karar verebilmek için hazırladığımız
+              bilgilendirici içerikleri inceleyebilirsiniz.
+            </p>
+          </Reveal>
+
+          <Reveal>
+            <a
+              href="/bilgi-merkezi/samsun-yapi-yonetimi-firmasi-secerken"
+              className="group block border border-[#d0a246]/20 hover:border-[#d0a246]/50 bg-[#26292c]/70 p-8 md:p-10 transition-colors duration-300"
+            >
+              <p
+                className="text-[#d0a246] text-[10px] tracking-[0.3em] uppercase mb-4"
+                style={{ fontFamily: 'var(--font-montserrat)' }}
+              >
+                Rehber Yazı
+              </p>
+
+              <h3
+                className="text-2xl md:text-3xl font-bold text-[#f5f0e8] mb-4"
+                style={{ fontFamily: 'var(--font-playfair)' }}
+              >
+                Samsun’da Yapı Yönetimi Firması Seçerken Nelere Dikkat Edilmeli?
+              </h3>
+
+              <p
+                className="text-[#f5f0e8]/55 leading-8 mb-6"
+                style={{ fontFamily: 'var(--font-lora)' }}
+              >
+                Şeffaf yönetim, düzenli operasyon, kat malikleriyle iletişim, hizmet kapsamı ve
+                yerel takip gücü gibi başlıklarla doğru yapı yönetimi firmasını seçerken dikkat
+                edilmesi gerekenleri anlattık.
+              </p>
+
+              <span
+                className="text-[#f5f0e8]/45 group-hover:text-[#d0a246] text-[10px] tracking-[0.25em] uppercase transition-colors"
+                style={{ fontFamily: 'var(--font-montserrat)' }}
+              >
+                Yazıyı Oku →
+              </span>
+            </a>
+          </Reveal>
+        </div>
+      </section>
 
       {/* ══════════════════════════════════════
           NEDEN KUTLUKENT
