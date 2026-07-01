@@ -475,7 +475,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col leading-none" style={{ fontFamily: 'var(--font-montserrat)' }}>
               <span className="text-[#d0a246] text-xs font-semibold tracking-[0.22em] uppercase">Kutlukent</span>
-              <span className="text-[#f5f0e8]/35 text-[9px] tracking-[0.18em] uppercase mt-0.5">Tesis Yönetimi</span>
+              <span className="text-[#f5f0e8]/35 text-[9px] tracking-[0.18em] uppercase mt-0.5">Samsun Site ve Tesis Yönetimi</span>
             </div>
           </a>
 
@@ -556,9 +556,9 @@ export default function Home() {
             className="text-4xl sm:text-5xl md:text-6xl lg:text-[64px] font-bold leading-[1.12] mb-7 tracking-tight"
             style={{ fontFamily: 'var(--font-playfair)' }}
           >
-            Tesis Yönetimi
-            <br />
-            <em className="not-italic text-[#d0a246]">ve Seçkin Yaşam Alanı Çözümleri</em>
+            Samsun Site ve Tesis Yönetimi
+<br />
+<em className="not-italic text-[#d0a246]">Profesyonel Yönetim Çözümleri</em>
           </motion.h1>
 
           <motion.div
@@ -572,9 +572,7 @@ export default function Home() {
             className="text-[#f5f0e8]/60 text-base md:text-lg leading-[1.9] max-w-2xl mx-auto mb-4"
             style={{ fontFamily: 'var(--font-lora)' }}
           >
-            Kutlukent; lüks konut projeleri, rezidanslar, siteler, iş merkezleri ve ticari mülkler için
-            yönetimden operasyonel desteğe, çevre hizmetlerinden premium çözümlere kadar tüm süreçleri
-            tek merkezden planlayan kurumsal tesis yönetimi markasıdır.
+            Kutlukent; Samsun genelinde apartman, site, rezidans, iş merkezi ve tesisler için profesyonel yönetim hizmetleri sunan kurumsal bir tesis yönetimi markasıdır. Şeffaf yönetim, düzenli operasyon, kat malikleriyle güçlü iletişim ve çözüm ortaklarıyla koordinasyon anlayışıyla yaşam alanlarının günlük işleyişini daha güvenli, düzenli ve sürdürülebilir hale getirir.
           </motion.p>
 
           <motion.p

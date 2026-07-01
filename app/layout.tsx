@@ -20,9 +20,9 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: 'Kutlukent | Tesis Yönetimi',
+  title: 'Samsun Site ve Tesis Yönetimi | Kutlukent',
   description:
-    'Samsun merkezli Kutlukent Site ve Tesis Yönetimi. Şeffaf yönetim, aidat takibi, teknik operasyon ve dijital süreç yönetimi çözümleri.',
+    'Kutlukent, Samsun genelinde site, apartman ve tesis yönetimi hizmetleri sunar. Şeffaf yönetim, düzenli operasyon ve profesyonel çözüm ortaklığıyla yaşam alanlarınızı güvenle yönetir.',
   icons: {
     icon: '/images/favicon-seffaf.png?v=1',
     shortcut: '/images/favicon-seffaf.png?v=1',
