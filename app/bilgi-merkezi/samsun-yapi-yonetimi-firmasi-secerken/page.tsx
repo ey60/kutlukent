@@ -59,10 +59,11 @@ export default function YapiYonetimiFirmasiSecerkenPage() {
           </p>
 
           <h1
-            className="text-4xl md:text-6xl font-bold leading-tight mb-8"
+            className="text-4xl md:text-6xl font-bold leading-tight mb-8 text-[#f5f0e8]"
             style={{ fontFamily: 'var(--font-playfair)' }}
           >
-            Samsun’da Yapı Yönetimi Firması Seçerken Nelere Dikkat Edilmeli?
+            Samsun’da Yapı Yönetimi Firması Seçerken{' '}
+            <span className="text-[#d0a246]">Nelere Dikkat Edilmeli?</span>
           </h1>
 
           <p
@@ -77,7 +78,7 @@ export default function YapiYonetimiFirmasiSecerkenPage() {
 
           <section className="mb-14">
             <h2
-              className="text-3xl font-bold mb-5"
+              className="text-3xl font-bold mb-5 text-[#d0a246]"
               style={{ fontFamily: 'var(--font-playfair)' }}
             >
               1. Şeffaf Yönetim Anlayışı Olmalı
@@ -96,7 +97,7 @@ export default function YapiYonetimiFirmasiSecerkenPage() {
 
           <section className="mb-14">
             <h2
-              className="text-3xl font-bold mb-5"
+              className="text-3xl font-bold mb-5 text-[#d0a246]"
               style={{ fontFamily: 'var(--font-playfair)' }}
             >
               2. Operasyon Takibi Düzenli Yapılmalı
@@ -115,7 +116,7 @@ export default function YapiYonetimiFirmasiSecerkenPage() {
 
           <section className="mb-14">
             <h2
-              className="text-3xl font-bold mb-5"
+              className="text-3xl font-bold mb-5 text-[#d0a246]"
               style={{ fontFamily: 'var(--font-playfair)' }}
             >
               3. Kat Malikleriyle İletişim Güçlü Olmalı
@@ -134,7 +135,7 @@ export default function YapiYonetimiFirmasiSecerkenPage() {
 
           <section className="mb-14">
             <h2
-              className="text-3xl font-bold mb-5"
+              className="text-3xl font-bold mb-5 text-[#d0a246]"
               style={{ fontFamily: 'var(--font-playfair)' }}
             >
               4. Hizmet Kapsamı Net Olmalı
@@ -153,7 +154,7 @@ export default function YapiYonetimiFirmasiSecerkenPage() {
 
           <section className="mb-14">
             <h2
-              className="text-3xl font-bold mb-5"
+              className="text-3xl font-bold mb-5 text-[#d0a246]"
               style={{ fontFamily: 'var(--font-playfair)' }}
             >
               5. Yerel Hizmet Kabiliyeti Önemlidir
@@ -172,7 +173,7 @@ export default function YapiYonetimiFirmasiSecerkenPage() {
 
           <section className="border border-[#d0a246]/25 p-8 md:p-10 bg-[#1e2124]/70 mb-14">
             <h2
-              className="text-3xl font-bold mb-5"
+              className="text-3xl font-bold mb-5 text-[#f5f0e8]"
               style={{ fontFamily: 'var(--font-playfair)' }}
             >
               Kutlukent’in Yaklaşımı
@@ -209,7 +210,7 @@ export default function YapiYonetimiFirmasiSecerkenPage() {
 
           <section className="mb-10">
             <h2
-              className="text-3xl font-bold mb-6"
+              className="text-3xl font-bold mb-6 text-[#f5f0e8]"
               style={{ fontFamily: 'var(--font-playfair)' }}
             >
               Sık Sorulan Sorular
@@ -235,7 +236,7 @@ export default function YapiYonetimiFirmasiSecerkenPage() {
               ].map((item) => (
                 <div key={item.question} className="border border-[#d0a246]/15 p-6 bg-[#1e2124]/50">
                   <h3
-                    className="text-[#d0a246] text-xl font-semibold mb-3"
+                    className="text-[#f5f0e8] text-xl font-semibold mb-3"
                     style={{ fontFamily: 'var(--font-playfair)' }}
                   >
                     {item.question}
