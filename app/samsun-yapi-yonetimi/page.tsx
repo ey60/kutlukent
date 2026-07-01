@@ -173,6 +173,17 @@ export default function SamsunYapiYonetimiPage() {
               ))}
             </div>
           </section>
+
+                      </div>
+
+            <p
+              className="text-[#f5f0e8]/45 text-sm leading-7 mt-6"
+              style={{ fontFamily: 'var(--font-lora)' }}
+            >
+              Hizmet planlaması; yapının konumu, ihtiyaçları, operasyon kapsamı ve düzenli takip
+              gerekliliklerine göre değerlendirilir.
+            </p>
+          </section>
           
           <section className="mb-16">
             <h2
