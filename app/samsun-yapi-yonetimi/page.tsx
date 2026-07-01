@@ -132,6 +132,53 @@ export default function SamsunYapiYonetimiPage() {
               className="text-3xl md:text-4xl font-bold mb-6"
               style={{ fontFamily: 'var(--font-playfair)' }}
             >
+              Samsun Genelinde Hizmet Verdiğimiz Bölgeler
+            </h2>
+
+            <p
+              className="text-[#f5f0e8]/60 leading-8 mb-6"
+              style={{ fontFamily: 'var(--font-lora)' }}
+            >
+              Kutlukent, Samsun genelinde yapı yönetimi, site yönetimi, apartman yönetimi ve tesis
+              yönetimi hizmetleri sunar. Hizmet yaklaşımı; merkez ilçelerden gelişen yerleşim
+              bölgelerine kadar farklı yapı tiplerinin ihtiyaçlarına göre planlanır.
+            </p>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+              {[
+                'Atakum',
+                'İlkadım',
+                'Canik',
+                'Tekkeköy',
+                'Bafra',
+                'Çarşamba',
+                'Terme',
+                'Vezirköprü',
+                'Havza',
+                'Kavak',
+                'Ladik',
+                '19 Mayıs',
+                'Alaçam',
+                'Asarcık',
+                'Ayvacık',
+                'Salıpazarı',
+                'Yakakent',
+              ].map((ilce) => (
+                <div
+                  key={ilce}
+                  className="border border-[#d0a246]/15 bg-[#1e2124]/50 px-4 py-3 text-[#f5f0e8]/60 text-sm"
+                >
+                  {ilce}
+                </div>
+              ))}
+            </div>
+          </section>
+          
+          <section className="mb-16">
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-6"
+              style={{ fontFamily: 'var(--font-playfair)' }}
+            >
               Samsun’da Yapı Yönetimi İçin Neden Kutlukent?
             </h2>
 
